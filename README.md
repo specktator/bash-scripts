@@ -5,6 +5,6 @@ This is my bash scripts repo. I use to script every possible repetitive (or not)
 ## Scripts Index
 1. resize-images.sh - Resizes all images and changes the filename with device type and image size
 2. watermark-images.sh - Applies a watermark image on top of other images in bulk.
-
+Depends ImageMagick
 ### Found a bug? Need an enhancement?
 **Create a pull request**
