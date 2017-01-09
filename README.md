@@ -8,3 +8,4 @@ This is my bash scripts repo. I use to script every possible repetitive (or not)
 Depends ImageMagick
 ### Found a bug? Need an enhancement?
 **Create a pull request**
+3. wp-boilerplate-compiler.sh - It's small script that "pre-compiles" the basic, [boilerplate](https://github.com/DevinVinson/WordPress-Plugin-Boilerplate), wordpress plugin structure according to your liking. It accepts plugin name, author name, author uri, author name, author email. Produces the basic file and folder structure, renames (prefix, suffix) class names, functions,vars and objects. In a nutshell, automates the whole process of adjusting the boilerplate.

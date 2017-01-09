@@ -16,9 +16,9 @@ do
     fdirectory="$(dirname $f)"
     filename="$(basename $f)"
     extention="${filename##*.}"
-    targetFilname=$fdirectory"/"${filename%.*}"_"$device"_"$width"."$extention
-    echo "Resizing: "$targetFilname
-    # convert $f -resize $width $targetFilname
+    targetFilename=$fdirectory"/"${filename%.*}"_"$device"_"$width"."$extention
+    echo "Resizing: "$targetFilename
+    # convert $f -resize $width $targetFilename
   done
 done
 exit 1;
